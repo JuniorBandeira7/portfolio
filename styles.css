@@ -7,7 +7,7 @@
     font-family: vastago;
 }
 
-p, h1, h2, h3{
+p, h1, h2, h3, a{
     color: #CCFFFF;
 }
 
@@ -34,4 +34,41 @@ header div p, header div h1, header div h2{
 
 #skills{
     background-color: #265973;
+}
+
+img{
+    aspect-ratio: "300/200";
+    object-fit: "cover" 
+}
+
+.card{
+    background-color: #001F3D;
+    border: 1px solid #CCFFFF;
+}
+
+.a-1{
+    background-color: #3B515E;
+}
+
+.a-1:hover{
+    background-color: #3b515e7c;
+}
+
+.a-2{
+    background-color: #000F1F;
+    border: 1px solid #336699;
+}
+
+.a-2:hover{
+    background-color: #336699;
+}
+
+.img-div{
+    width: 100%;
+    height: 600px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
 }
