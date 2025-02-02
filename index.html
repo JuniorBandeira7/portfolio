@@ -9,12 +9,16 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="w-full bg-primary py-12">
+    <header class="w-full py-12">
         <div class="container mx-auto md:px-6 text-center md:py-20">
             <h1 class="text-4xl md:text-6xl font-bold tracking-tight">Julio Bandeira</h1>
             <h3 class="text-lg md:text-xl text-primary-foreground mt-4">Full Stack Developer</h3>
             <p class="max-w-[600px] text-primary-foreground mt-6">Sou um programador com grande entusiasmo por aprender e criar aplicações web funcionais e intuitivas. Tenho foco em desenvolver soluções criativas
             estou sempre em busca de aprimorar minhas habilidades e expandir meu conhecimento no desenvolvimento de software.</p>
+            <div id="redes" class="mt-4 gap-2 flex">
+              <a href="https://www.linkedin.com/in/julio-bandeira-442515174/" target="_blank"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/JuniorBandeira7" target="_blank"><i class="bi bi-github"></i></a>
+            </div>
         </div>
     </header>
     <main>
@@ -32,13 +36,13 @@
                               <div class="flex gap-2">
                                 <a
                                   href="#"
-                                  class="a-1 inline-flex items-center justify-center bg-secondary px-4 py-2 text-sm font-medium text-secondary-foreground shadow transition-colors hover:bg-secondary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                                  class="a-1 inline-flex items-center justify-center bg-secondary px-4 py-2 text-sm font-medium"
                                 >
                                   Live Demo
                               </a>
                               <a
                                   href="#"
-                                  class="a-2 inline-flex items-center justify-center bg-secondary px-4 py-2 text-sm font-medium text-secondary-foreground shadow transition-colors hover:bg-secondary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                                  class="a-2 inline-flex items-center justify-center bg-secondary px-4 py-2 text-sm font-medium"
                                 >
                                   GitHub
                               </a>
@@ -55,13 +59,13 @@
                           <div class="flex gap-2">
                             <a
                               href="#"
-                              class="a-1 inline-flex items-center justify-center bg-secondary px-4 py-2 text-sm font-medium text-secondary-foreground shadow transition-colors hover:bg-secondary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                              class="a-1 inline-flex items-center justify-center bg-secondary px-4 py-2 text-sm font-medium"
                             >
                               Live Demo
                           </a>
                           <a
                               href="#"
-                              class="a-2 inline-flex items-center justify-center bg-secondary px-4 py-2 text-sm font-medium text-secondary-foreground shadow transition-colors hover:bg-secondary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                              class="a-2 inline-flex items-center justify-center bg-secondary px-4 py-2 text-sm font-medium"
                             >
                               GitHub
                           </a>
@@ -78,13 +82,13 @@
                       <div class="flex gap-2">
                         <a
                           href="#"
-                          class="a-1 inline-flex items-center justify-center bg-secondary px-4 py-2 text-sm font-medium text-secondary-foreground shadow transition-colors hover:bg-secondary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                          class="a-1 inline-flex items-center justify-center bg-secondary px-4 py-2 text-sm font-medium"
                         >
                           Live Demo
                       </a>
                       <a
                           href="#"
-                          class="a-2 inline-flex items-center justify-center bg-secondary px-4 py-2 text-sm font-medium text-secondary-foreground shadow transition-colors hover:bg-secondary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                          class="a-2 inline-flex items-center justify-center bg-secondary px-4 py-2 text-sm font-medium"
                         >
                           GitHub
                       </a>
@@ -93,8 +97,67 @@
         </div>
         </div>
         </section>
-        <section id="skills">
-
+        <section id="skills" class="py-16 md:py-24 bg-muted dark:bg-muted-dark">
+          <div class="container mx-auto px-4 md:px-6">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
+              <div class="skills-card p-4 rounded-md">
+                <h3 class="text-lg font-semibold mb-2">Front-end</h3>
+                <ul class="space-y-2">
+                  <li>React</li>
+                  <li>Next.js</li>
+                  <li>HTML/CSS</li>
+                  <li>JavaScript</li>
+                  <li>TypeScript</li>
+                  <li>Angular</li>
+                </ul>
+              </div>
+              <div class="skills-card p-4 rounded-md">
+                <h3 class="text-lg font-semibold mb-2">Back-end</h3>
+                <ul class="space-y-2">
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>.Net</li>
+                  <li>Entity Framework</li>
+                  <li>MongoDB</li>
+                  <li>SQL</li>
+                </ul>
+              </div>
+              <div class="skills-card p-4 rounded-md">
+                <h3 class="text-lg font-semibold mb-2">Ferramentas</h3>
+                <ul class="space-y-2">
+                  <li>Python</li>
+                  <li>Docker</li>
+                  <li>Git</li>
+                  <li>Pacote Office</li>
+                  <li>Jest</li>
+                  <li>Selenium</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="py-16 md:py-24 contato">
+          <div class="container mx-auto px-4 md:px-6">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8"> Entre em contato</h2>
+            <form action="" class="max-w-xl mx-auto">
+              <div class="grid gap-4">
+                <div>
+                  <label for="name" class="block mb-2">Nome</label>
+                  <Input id="name" placeholder="Nome" class="border border-blue-500"/>
+                </div>
+                <div>
+                  <label for="email" class="block mb-2">Email</label>
+                  <Input id="email" placeholder="Seus@email.com" class="border border-blue-500"/>
+                </div>
+                <div>
+                  <label for="message" class="block mb-2">Mensagem</label>
+                  <textarea id="message" placeholder="Deixe sua mensagem!" rows="6" class="border border-blue-500"></textarea>
+                </div>
+                <button type="submit" class="justify-self-end hover:bg-blue-500 py-2 px-4 border border-blue-500">Enviar</button>
+              </div>
+            </form>
+          </div>
         </section>
     </main>
 </body>
